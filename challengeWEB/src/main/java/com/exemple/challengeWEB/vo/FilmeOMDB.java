@@ -1,9 +1,14 @@
 package com.exemple.challengeWEB.vo;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class FilmeOMDB {
 	
+	@JsonProperty("Title")
 	private String title;
 	
+
+	@JsonProperty("Year")
 	private String year;
 
 	public String getTitle() {

@@ -1,4 +1,4 @@
-package com.example.challegengeWEB.service;
+package com.example.challengeWEB.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
